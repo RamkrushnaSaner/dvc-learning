@@ -1,8 +1,12 @@
+# Python
 venv/
 __pycache__/
 *.pyc
 .env
 
-# DVC data handling
+# Ignore all data files
 data/**
+
+# But DO NOT ignore DVC metadata
 !data/**/*.dvc
+!data/**/.gitignore
